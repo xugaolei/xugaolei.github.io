@@ -3,8 +3,10 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-			{% include analytics.html %}
+			<link rel="stylesheet" type="text/css" href="/css/main.css">			
+			<div class="visitor_numbers">
+				{% include analytics.html %}	 
+			</div>
 		</head>
 		<body>
 			<nav>
